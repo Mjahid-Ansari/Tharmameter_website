@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  body{
+      background-color: cornflowerblue;
+  }
+  #temp{
+      font-size: 50px;
+  }
+  h1{
+    text-align: center;
+}
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+  
+</style>
+
+</head>
+<body>
+    
+  <div class="outerDiv">
+      <div class="innerDiv">
+          <h1 class="main-heading">i am thermometer</h1>
+          <p> <span class="fa" id="temp"></span> </p>
+          
+      </div>
+      <div>
+        <p> <span class="fa" id="tempp"></span> </p>
+      </div>
+  </div>
+
+
+
+  
+</body>
+
+<script>
+
+/*
+  const tempLoad = () => {
+      let temp = document.getElementById('temp');
+      temp.innerHTML = "&#xf244";
+      temp.style.color = "red";
+      temp.style.color = "red";
+      
+      
+
+
+      setTimeout(() => {
+        temp.innerHTML = "&#xf243";
+        temp.style.color = "green";
+      }, 1000);
+
+      setTimeout(() => {
+        temp.innerHTML = "&#xf242";
+        temp.style.color = "green";
+      }, 2000);
+
+      setTimeout(() => {
+        temp.innerHTML = "&#xf241";
+        temp.style.color = "green";
+      }, 3000);
+
+      setTimeout(() => {
+        temp.innerHTML = "&#xf240";
+        temp.style.color = "green";
+      }, 4000);
+
+  }
+  tempLoad();
+setInterval(tempLoad,5000)
+
+*/
+
+  //f2cb
+  //f2ca
+  //f2c9
+  //f2c7
+
+  const tempLoadd = () => {
+      let tempp = document.getElementById('temp');
+      tempp.innerHTML = "&#xf2cb";
+      tempp.style.color = "yellow";
+      
+      
+      
+
+
+      setTimeout(() => {
+        tempp.innerHTML = "&#xf2ca";
+        tempp.style.color = "green";
+      }, 1000);
+
+      setTimeout(() => {
+        tempp.innerHTML = "&#xf2c9";
+        tempp.style.color = "green";
+      }, 2000);
+
+      setTimeout(() => {
+        tempp.innerHTML = "&#xf2c8";
+        tempp.style.color = "green";
+      }, 3000);
+
+      setTimeout(() => {
+        temp.innerHTML = "&#xf2c7";
+        temp.style.color = "red";
+      }, 4000);
+
+  }
+  tempLoadd();
+setInterval(tempLoadd,5000)
+
+</script>
+
+<!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+-->
+</html>
